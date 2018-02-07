@@ -1,2 +1,2 @@
 # viralrank_centrality
-ViralRank is a centrality measure that identify the most influential nodes in complex netoworks
+ViralRank is a centrality measure that identifies the most influential nodes in complex networks
