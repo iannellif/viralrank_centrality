@@ -15,15 +15,20 @@ For contact networks its value is set equal to (approximately) zero correspondin
                   
 # required modules and basic usage
 
+---------
+Required modules:
+Python:   tested for: 2.7.13.  
+numpy:    tested for: 1.11.0.  
+networkx: tested for: 1.14.5.   
+
 After importing the module with:
 
 import vrank as vr
 
-ViralRank scores can be computed as:
+ViralRank scores can be computed as (for contact networks set e.g. lambda = 0.0001):
 
-invt = 0.0001
-v = vr.ViralRank(g).value(invt) 
+v = vr.ViralRank(g).value(lambda) 
 
 The corresponding nodes' ranking is obtained as:
 
-v = vr.ViralRank(g).rank(invt) 
+v = vr.ViralRank(g).rank(lambda) 
