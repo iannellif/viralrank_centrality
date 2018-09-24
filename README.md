@@ -26,7 +26,7 @@ After importing the module with:
 
 import vrank as vr
 
-ViralRank scores can be computed as (for contact networks set e.g. lambda = 0.0001):
+ViralRank scores can be computed for the networkx graph 'g' as (for contact networks set e.g. lambda = 0.0001):
 
 v = vr.ViralRank(g).value(lambda) 
 
