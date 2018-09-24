@@ -4,7 +4,7 @@ ViralRank is a centrality measure that identifies the most influential nodes in 
 
 Viralrank is defined as (note that the minus sign implies negative scores): 
 
-v(lambda) = - \sum_j (D_{ij} + D_{ji}),
+v(lambda) = - \sum_j (D_{ij} + D_{ji})/N,
         
 where D_{ij} is the random-walk effective distance [F. Iannelli at al. Phys. Rev. E 95, 012313 (2017)] from i to j and lambda is a parameter that plays the role of the inverse temperature (see next). The latter is defined as:
 
