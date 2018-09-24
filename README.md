@@ -17,6 +17,7 @@ For contact networks its value is set equal to (approximately) zero correspondin
 
 ---------
 Required modules:
+
 Python:   tested for: 2.7.13.  
 numpy:    tested for: 1.11.0.  
 networkx: tested for: 1.14.5.   
